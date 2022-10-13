@@ -1,0 +1,525 @@
+body {
+    background-color: rgb(252, 252, 241);
+}
+.rectangulo {
+    background: linear-gradient(180deg, rgb(238, 154, 229) 0%, rgb(89, 97, 249) 100%);
+    border: 1px none;
+    border-radius: 48px 48px 300px 48px;
+    height: 620px;
+    position: absolute;
+    width: 1280px;
+    margin-left: 20px;
+    margin-top: 100px;
+    padding-left: 30px;
+}
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    padding-top: 100px;
+}
+.columna1 {
+    width: 700px;
+    float: left;
+    margin-left: 20px;
+}
+.columna2 {
+    float: right;
+}
+p {
+    color: white;
+    font-size: 14px;
+    width: 550px;
+    font-family: 'Roboto', sans-serif;
+}
+.btnInscribete,
+.btnExplora, .btnDescubre, .btnSuscribete, .btnBasico, .btnAvanzado, .btnPremium{
+    width: 170px;
+    height: 55px;
+    background-color: #cf64ac;
+    border-radius: 10px;
+    border-color: #cf64ac;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btnExplora{
+    background-color: #ffffff00;
+    border-color: white;
+}
+.btnExplora:hover {
+    background-color: #cf64ac;
+    border-color: #cf64ac;
+}
+#Saly {
+    width: 550px;
+}
+nav {
+    position: absolute;
+}
+nav ul {
+    margin: 35px 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+nav a {
+    font-size: 16px;
+    font-family: 'Inter Tight', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    font-weight: bold;
+}
+nav #logo {
+    margin: 20px 60px;
+}
+.btnEnglish, .btnIniciar {
+    width: 150px;
+    height: 45px;
+    background-color: #e450bf00;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: bold;
+}
+.btnEnglish {
+    margin-left: 330px;
+    border: 0px;
+    color: rgb(94, 92, 92);
+}
+.btnIniciar {
+    border-color: rgb(197, 197, 197);
+}
+UL.col4 {
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 800px;
+}
+UL.col4 div {
+    display: inline;
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+    border-radius: 20px;
+    height: 370px;
+}
+.aprende h2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+}
+.aprende {
+    background-color: #ffffff00;
+}
+.aprende p {
+    color: rgb(14, 0, 165);
+    width: 90%;
+    padding-left: 30px;
+    font-size: 14px;
+
+}
+h2 {
+    color: rgb(10, 0, 117);
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+UL.col4 div img {
+    width: 60%;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.horarios, .plataforma {
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.tareas {
+    margin-top: 140px;
+    background-color: rgb(255, 255, 255);
+}
+#tareas {
+    padding-top: 75px;
+    padding-bottom: 45px;
+}
+#plataforma {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.experiencia {
+    background-color: rgb(252, 236, 236);
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 90px;
+    height: 1400px;
+}
+.col1 {
+    width: 52%;
+    float: left;
+}
+.col2 {
+    float: right;
+    width: 48%;
+}
+#saly12 {
+    width: 600px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.col2 h1 {
+    color: rgb(10, 0, 117);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 150px;
+    width: 420px;
+}
+.col2 p {
+    color: rgb(14, 0, 165);
+    width: 420px;
+    font-size: 14px;
+}
+.col1 h1 {
+    color: rgb(10, 0, 117);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 155px;
+    width: 420px;
+}
+.col1 p {
+    color: rgb(14, 0, 165);
+    width: 420px;
+    font-size: 14px;
+    margin-left: 155px;
+}
+#saly16 {
+    width: 600px;
+    margin-top: 150px;
+}
+span{
+    color: #cf64ac;
+}
+.col1 .btnInscribete {
+    margin-left: 155px;
+}
+.planes {
+
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 90px;
+}
+.planes h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.planes p {
+    text-align: center;
+    margin-left: 400px;
+    color: rgb(14, 0, 165);
+    font-size: 14px;
+}
+.planes h4 {
+    color: rgb(10, 0, 117);
+    font-size: 16px;
+    font-weight: 900;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+}
+#mensual {
+    margin-left: 585px;
+}
+
+/*Aquí empieza el efecto del switch button-------------------------------------*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(243, 223, 223);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #cf64ac;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked+.slider {
+    background-color: rgb(243, 223, 223);
+}
+input:focus+.slider {
+    box-shadow: 0 0 1px rgb(243, 223, 223);
+}
+input:checked+.slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+/*Aquí termina el efecto del switch button-------------------------------------*/
+
+UL.col3 {
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+    width: 90%;
+    list-style-type: none;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+UL.col3 div {
+    display: inline;
+    float: left;
+    width: 28%;
+    margin-left: 4%;
+    border-radius: 20px;
+    height: 670px;
+    background-color: white;
+}
+.col3 h2{
+    font-size: 40px;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.col3 p {
+    width: 200px;
+    padding-left: 60px;
+    text-align: center;
+    color: rgb(14, 0, 165);
+    font-size: 14px;
+}
+.col3 h3{
+    color: #cf64ac;
+    font-size: 70px;
+    margin-top: 15px;
+    float: left;
+    width: 220px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+
+    height: 30px;
+}
+.col3 #mes{
+    width: 20px;
+    margin-top: 80px;
+    float: left;
+    padding-left: 20px;
+}
+.lisBasico,.lisAvanzado, .lisPremium {
+    margin-top: 140px;
+    padding-left: 60px;
+    list-style: none;
+}
+.lisBasico li, .lisAvanzado li, .lisPremium li{
+    margin-top: 20px;
+    color: rgb(10, 0, 117);
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    padding-left: 30px;
+}
+.lisBasico li:before, .lisAvanzado li:before, .lisPremium li:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url('../imagenes/Ellipse\ 3@1x.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.lisBasico #rojo:before, .lisAvanzado #rojo:before{
+    background-image: url('../imagenes/Ellipse\ 4@1x.png');
+}
+.col3 button{
+    margin-left: 25%;
+    margin-top: 40px;
+}
+.btnBasico, .btnPremium{
+    background-color: white;
+    border-color: #cf64ac;
+    color: #cf64ac;
+}
+ul.rectangulo2 {
+    background: linear-gradient(180deg, rgb(238, 154, 229) 0%, rgb(89, 97, 249) 100%);
+    border: 1px none;
+    border-radius: 40px 40px 40px 40px;
+    height: 390px;
+    float: left;
+    width: 1150px;
+    margin-left: 80px;
+    margin-top: 100px;
+    padding-left: 30px;
+}
+.colum1 h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding-top: 45px;
+    padding-left: 40px;
+}
+.colum1 {
+    width: 550px;
+    float: left;
+}
+.colum2 {
+    float: right;
+}
+.colum1 p {
+    color: white;
+    font-size: 14px;
+    width: 550px;
+    padding-left: 40px;
+}
+#saly31{
+    width: 400px;
+    margin-right: 60px;
+}
+.btnDescubre{
+    margin-left: 40px;
+    font-size: 14px;
+    background-color:#e982c7;
+    border-color: #e982c7;
+}
+footer{
+    background-color: rgb(0, 0, 97);
+    height: 430px;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+ul.final{
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+    width: 100%;
+    list-style-type: none;
+}
+ul.final div{
+    height: 100px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+ul.final .c1{
+    width: 30%;
+    margin-left: 70px;
+}
+ul.final .c2{
+    width: 11%;
+}
+ul.final .c3{
+    width: 20%;
+}
+ul.final .c4{
+    width: 15%;
+}
+ul.final .c1 p{
+    font-size: 13px;
+    width: 380px;
+}
+.lis2 li, .lis3 li, .lis4 li{
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 27px;
+    cursor: pointer;
+}
+#top{
+    font-weight: bold;
+}
+#logo2{
+    margin-bottom: 15px;
+}
+footer #border{
+    margin-top: 315px;
+    border-top: 2px solid white;
+    margin-left: 70px;
+    width: 1200px;
+}
+footer #derechos{
+    margin-left: 70px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.misIconos{
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(0, 0, 97);
+    margin-left: 400px;
+}
+.misIconos i{
+    background-color: white;
+    padding: 7px;
+    border-radius: 15px;
+    margin-left: 16px;
+}
+.btnSuscribete{
+    background-color: #d372b3;
+    border-color: #d372b3;
+    margin-left: 0px;
+    width: 150px;
+    height: 55px;
+}
+#correo{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(194, 194, 194);
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 17px;
+}
